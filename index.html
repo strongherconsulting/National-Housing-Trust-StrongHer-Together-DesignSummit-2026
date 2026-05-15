@@ -1,0 +1,1410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Jamaica Affordable Housing Supply Initiative — StrongHer Consulting. NHT-aligned, ESG-driven, immediately executable. 3,300+ units. Policy-backed. Developer & Investor Intelligence Briefing.">
+<title>Jamaica Affordable Housing Initiative | StrongHer Consulting</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* ─── RESET & BASE ─── */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;font-size:16px}
+body{font-family:'Montserrat',sans-serif;background:#f7f7f5;color:#2c2c2c;line-height:1.75;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:#0ABAB5;text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* ─── CSS VARIABLES ─── */
+:root{
+  --tiffany:#0ABAB5;
+  --tiffany-dark:#078a86;
+  --tiffany-light:#e8f9f9;
+  --tiffany-mid:#b2e8e6;
+  --charcoal:#1a1a1a;
+  --ink:#2c2c2c;
+  --silver:#8a8a8a;
+  --pearl:#f7f7f5;
+  --white:#ffffff;
+  --rule:#d8d8d8;
+  --nav-h:64px;
+}
+
+/* ─── STICKY NAV ─── */
+#main-nav{
+  position:fixed;top:0;left:0;right:0;z-index:1000;
+  background:rgba(26,26,26,0.97);
+  backdrop-filter:blur(8px);
+  height:var(--nav-h);
+  border-bottom:2px solid var(--tiffany);
+  display:flex;align-items:center;
+}
+.nav-inner{
+  max-width:1100px;margin:0 auto;padding:0 1.5rem;
+  display:flex;align-items:center;justify-content:space-between;width:100%;
+}
+.nav-brand{
+  font-family:'Cormorant Garamond',serif;
+  font-size:1rem;font-weight:400;letter-spacing:0.12em;
+  color:var(--tiffany);white-space:nowrap;
+}
+.nav-links{
+  display:flex;gap:0;list-style:none;
+}
+.nav-links li a{
+  display:block;padding:0 0.75rem;
+  font-size:0.6rem;font-weight:600;letter-spacing:0.15em;text-transform:uppercase;
+  color:rgba(255,255,255,0.7);transition:color 0.2s;
+  line-height:var(--nav-h);
+}
+.nav-links li a:hover{color:var(--tiffany);text-decoration:none}
+.nav-cta{
+  background:var(--tiffany);color:#fff !important;
+  padding:0.45rem 1rem !important;line-height:1 !important;
+  font-weight:700 !important;font-size:0.58rem !important;
+  letter-spacing:0.15em;text-transform:uppercase;
+  border-radius:0;transition:background 0.2s;margin-left:0.5rem;
+  align-self:center;
+}
+.nav-cta:hover{background:var(--tiffany-dark) !important;text-decoration:none !important}
+
+/* Hamburger */
+.nav-hamburger{
+  display:none;flex-direction:column;gap:5px;cursor:pointer;
+  background:none;border:none;padding:4px;
+}
+.nav-hamburger span{display:block;width:24px;height:2px;background:rgba(255,255,255,0.8);transition:0.3s}
+.nav-mobile{
+  display:none;position:fixed;top:var(--nav-h);left:0;right:0;
+  background:rgba(26,26,26,0.98);z-index:999;
+  padding:1rem 0 1.5rem;border-bottom:1px solid rgba(10,186,181,0.3);
+}
+.nav-mobile.open{display:block}
+.nav-mobile ul{list-style:none}
+.nav-mobile ul li a{
+  display:block;padding:0.7rem 1.5rem;
+  font-size:0.7rem;font-weight:600;letter-spacing:0.15em;text-transform:uppercase;
+  color:rgba(255,255,255,0.8);border-bottom:1px solid rgba(255,255,255,0.05);
+  transition:color 0.2s;
+}
+.nav-mobile ul li a:hover{color:var(--tiffany);text-decoration:none}
+.nav-mobile .mob-cta{
+  margin:1rem 1.5rem 0;display:block;
+  background:var(--tiffany);color:#fff;
+  text-align:center;padding:0.8rem;
+  font-size:0.7rem;font-weight:700;letter-spacing:0.15em;text-transform:uppercase;
+}
+
+/* ─── LAYOUT ─── */
+.wrap{max-width:1100px;margin:0 auto;padding:0 1.5rem}
+.section{padding:5rem 0}
+.section+.section{border-top:1px solid var(--rule)}
+.dark-section{background:var(--charcoal);padding:5rem 0}
+.tiffany-section{background:var(--tiffany);padding:5rem 0}
+.tiffany-light-section{background:var(--tiffany-light);padding:5rem 0}
+.pt-nav{padding-top:calc(var(--nav-h) + 5rem)}
+
+/* ─── TYPE ─── */
+.eyebrow{
+  font-size:0.6rem;font-weight:700;letter-spacing:0.3em;
+  text-transform:uppercase;color:var(--tiffany);margin-bottom:0.6rem;display:block
+}
+.dark-section .eyebrow,.tiffany-section .eyebrow{color:rgba(255,255,255,0.5)}
+.tiffany-light-section .eyebrow{color:var(--tiffany-dark)}
+h1,h2,h3,h4{font-family:'Cormorant Garamond',serif;line-height:1.2}
+.section-title{
+  font-size:clamp(1.8rem,4vw,2.6rem);font-weight:400;
+  color:var(--charcoal);margin-bottom:0.4rem
+}
+.dark-section .section-title,.tiffany-section .section-title{color:#fff}
+.tiffany-light-section .section-title{color:var(--charcoal)}
+.section-rule{
+  width:50px;height:2px;background:var(--tiffany);
+  margin:1rem 0 2rem;display:block
+}
+.dark-section .section-rule{background:rgba(255,255,255,0.3)}
+.tiffany-section .section-rule{background:rgba(255,255,255,0.5)}
+.lead{
+  font-family:'Cormorant Garamond',serif;
+  font-size:1.1rem;font-weight:300;line-height:1.7;
+  color:var(--ink);margin-bottom:1.2rem
+}
+.dark-section .lead{color:rgba(255,255,255,0.85)}
+.tiffany-section .lead{color:rgba(255,255,255,0.9)}
+p.body{
+  font-size:0.88rem;line-height:1.85;color:var(--ink);
+  margin-bottom:1rem;font-weight:300
+}
+.dark-section p.body{color:rgba(255,255,255,0.75)}
+.sub-h{
+  font-family:'Montserrat',sans-serif;font-size:0.78rem;
+  font-weight:700;letter-spacing:0.08em;text-transform:uppercase;
+  color:var(--charcoal);margin:2rem 0 0.6rem
+}
+.dark-section .sub-h{color:var(--tiffany)}
+.tiffany-light-section .sub-h{color:var(--tiffany-dark)}
+
+/* ─── COVER / HERO ─── */
+#hero{
+  min-height:100vh;background:var(--charcoal);
+  display:flex;flex-direction:column;align-items:center;
+  justify-content:center;position:relative;overflow:hidden;
+  padding:calc(var(--nav-h) + 4rem) 1.5rem 4rem;
+}
+#hero::before{
+  content:'';position:absolute;inset:0;
+  background:
+    radial-gradient(ellipse at 25% 60%,rgba(10,186,181,0.14) 0%,transparent 55%),
+    radial-gradient(ellipse at 78% 20%,rgba(10,186,181,0.07) 0%,transparent 50%);
+}
+.hero-top-bar{position:absolute;top:0;left:0;right:0;height:5px;background:linear-gradient(90deg,var(--tiffany),var(--tiffany-dark),var(--tiffany))}
+.hero-inner{position:relative;text-align:center;max-width:780px;margin:0 auto}
+.hero-brand-name{
+  font-size:0.65rem;letter-spacing:0.35em;text-transform:uppercase;
+  color:var(--tiffany);margin-bottom:0.25rem;font-weight:600
+}
+.hero-tagline-brand{
+  font-size:0.55rem;letter-spacing:0.2em;color:rgba(255,255,255,0.35);
+  text-transform:uppercase;margin-bottom:1.5rem
+}
+.hero-divider{width:50px;height:1px;background:var(--tiffany);margin:1.2rem auto;opacity:0.6}
+.hero-title{
+  font-family:'Cormorant Garamond',serif;
+  font-size:clamp(2.4rem,6vw,4rem);font-weight:300;
+  color:#fff;letter-spacing:0.02em;margin-bottom:0.3rem
+}
+.hero-title em{color:var(--tiffany);font-style:italic}
+.hero-subtitle{
+  font-size:0.68rem;letter-spacing:0.25em;text-transform:uppercase;
+  color:rgba(255,255,255,0.45);margin-bottom:2.5rem
+}
+.hero-badges{
+  display:flex;flex-wrap:wrap;gap:0.5rem;justify-content:center;margin-bottom:3rem
+}
+.badge{
+  border:1px solid rgba(10,186,181,0.45);color:var(--tiffany);
+  font-size:0.55rem;letter-spacing:0.18em;text-transform:uppercase;
+  padding:0.4rem 0.9rem;font-weight:600;white-space:nowrap
+}
+.hero-cta-row{display:flex;flex-wrap:wrap;gap:1rem;justify-content:center;margin-bottom:2.5rem}
+.btn-primary{
+  background:var(--tiffany);color:#fff;
+  padding:0.85rem 2rem;font-size:0.7rem;font-weight:700;
+  letter-spacing:0.18em;text-transform:uppercase;
+  border:none;cursor:pointer;transition:background 0.2s;display:inline-block
+}
+.btn-primary:hover{background:var(--tiffany-dark);text-decoration:none;color:#fff}
+.btn-outline{
+  border:1px solid rgba(255,255,255,0.3);color:rgba(255,255,255,0.8);
+  padding:0.85rem 2rem;font-size:0.7rem;font-weight:600;
+  letter-spacing:0.18em;text-transform:uppercase;
+  background:none;cursor:pointer;transition:all 0.2s;display:inline-block
+}
+.btn-outline:hover{border-color:var(--tiffany);color:var(--tiffany);text-decoration:none}
+.hero-prepared{text-align:center;margin-top:1rem}
+.hero-prep-label{font-size:0.55rem;letter-spacing:0.2em;text-transform:uppercase;color:rgba(255,255,255,0.3);margin-bottom:0.25rem}
+.hero-prep-name{font-family:'Cormorant Garamond',serif;font-size:1.1rem;color:#fff}
+.hero-prep-detail{font-size:0.62rem;color:rgba(255,255,255,0.45);margin-top:0.15rem}
+.hero-affiliations{
+  margin-top:2.5rem;padding-top:1.5rem;
+  border-top:1px solid rgba(255,255,255,0.07);
+  font-size:0.5rem;letter-spacing:0.1em;text-transform:uppercase;
+  color:rgba(255,255,255,0.22);line-height:2.2;text-align:center
+}
+
+/* ─── EXEC FINANCIAL SUMMARY ─── */
+.exec-box{
+  background:var(--charcoal);border:1px solid rgba(10,186,181,0.25);
+  padding:2.5rem;margin:2.5rem 0
+}
+.exec-box-header{
+  font-size:0.6rem;letter-spacing:0.25em;text-transform:uppercase;
+  color:var(--tiffany);font-weight:700;margin-bottom:1.2rem;
+  border-bottom:1px solid rgba(10,186,181,0.2);padding-bottom:0.8rem
+}
+.exec-kpi-row{
+  display:grid;grid-template-columns:repeat(4,1fr);gap:1px;
+  background:rgba(255,255,255,0.08);margin:1.5rem 0
+}
+.exec-kpi{
+  background:rgba(255,255,255,0.04);padding:1.2rem 1rem;text-align:center
+}
+.exec-kpi-val{
+  font-family:'Cormorant Garamond',serif;font-size:1.9rem;
+  font-weight:300;color:var(--tiffany);line-height:1;margin-bottom:0.3rem
+}
+.exec-kpi-lbl{
+  font-size:0.6rem;font-weight:600;letter-spacing:0.12em;
+  text-transform:uppercase;color:rgba(255,255,255,0.65)
+}
+
+/* ─── STAT CARDS ─── */
+.stats-grid{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
+  gap:2px;background:var(--rule);margin:2.5rem 0
+}
+.stat-card{background:#fff;padding:1.8rem 1.2rem;text-align:center}
+.stat-num{
+  font-family:'Cormorant Garamond',serif;font-size:2.2rem;
+  font-weight:300;color:var(--tiffany);line-height:1;margin-bottom:0.35rem
+}
+.stat-lbl{
+  font-size:0.62rem;font-weight:600;letter-spacing:0.12em;
+  text-transform:uppercase;color:#1a1a1a;line-height:1.5
+}
+
+/* ─── CALLOUT ─── */
+.callout{
+  border-left:3px solid var(--tiffany);background:var(--tiffany-light);
+  padding:1.2rem 1.5rem;margin:1.5rem 0;
+  font-family:'Cormorant Garamond',serif;
+  font-style:italic;font-size:1rem;line-height:1.6;color:var(--ink)
+}
+.dark-section .callout{background:rgba(10,186,181,0.1);color:rgba(255,255,255,0.9)}
+
+/* ─── CHECK LIST ─── */
+.check-grid{
+  display:grid;grid-template-columns:1fr 1fr;gap:0.4rem 2rem;margin:1.2rem 0
+}
+.ci{
+  display:flex;align-items:flex-start;gap:0.5rem;
+  font-size:0.82rem;color:var(--ink);padding:0.3rem 0;font-weight:300
+}
+.dark-section .ci,.tiffany-section .ci{color:rgba(255,255,255,0.85)}
+.tiffany-light-section .ci{color:var(--ink)}
+.ci::before{content:'✓';color:var(--tiffany);font-weight:700;flex-shrink:0;font-size:0.85rem}
+.dark-section .ci::before{color:var(--tiffany)}
+
+/* ─── NHT PROGRAM CARDS ─── */
+.nht-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin:1.5rem 0}
+.nht-card{
+  border:1px solid var(--rule);background:#fff;
+  padding:1.8rem;position:relative;overflow:hidden;
+  transition:box-shadow 0.3s
+}
+.nht-card::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:3px;background:var(--tiffany)
+}
+.nht-card:hover{box-shadow:0 6px 28px rgba(10,186,181,0.1)}
+.nht-card-icon{font-size:1.5rem;margin-bottom:0.7rem}
+.nht-card h4{
+  font-family:'Montserrat',sans-serif;font-size:0.78rem;font-weight:700;
+  letter-spacing:0.05em;color:var(--charcoal);margin-bottom:0.5rem
+}
+.nht-card p{font-size:0.78rem;color:var(--silver);line-height:1.65}
+.nht-card ul{
+  margin-top:0.7rem;padding-left:1rem;
+  font-size:0.76rem;color:var(--ink);line-height:2
+}
+
+/* ─── PRICING TABLE ─── */
+.table-wrap{overflow-x:auto;margin:1.5rem 0;-webkit-overflow-scrolling:touch}
+table.data-table{width:100%;border-collapse:collapse;font-size:0.82rem;min-width:480px}
+.data-table th{
+  background:var(--charcoal);color:#fff;padding:0.85rem 1rem;
+  text-align:left;font-family:'Montserrat',sans-serif;
+  font-size:0.6rem;font-weight:600;letter-spacing:0.15em;text-transform:uppercase;
+  white-space:nowrap
+}
+.data-table td{
+  padding:0.85rem 1rem;border-bottom:1px solid #ebebeb;color:var(--ink)
+}
+.data-table tr:last-child td{border-bottom:none}
+.data-table tr:nth-child(even) td{background:var(--pearl)}
+.data-table td:first-child{font-weight:500;color:var(--tiffany-dark)}
+.tiffany-val{color:var(--tiffany-dark) !important;font-weight:700 !important}
+.data-table tr.total-row td{background:var(--tiffany-light);font-weight:700}
+.data-table tr.total-row td:nth-child(5){color:var(--tiffany-dark) !important}
+
+table.income-table{width:100%;border-collapse:collapse;font-size:0.82rem;min-width:500px}
+.income-table th{
+  background:var(--tiffany);color:#fff;padding:0.8rem 1rem;
+  font-size:0.6rem;font-weight:600;letter-spacing:0.15em;text-transform:uppercase
+}
+.income-table td{padding:0.8rem 1rem;border-bottom:1px solid #eee;color:var(--ink)}
+.income-table tr:nth-child(even) td{background:var(--tiffany-light)}
+.income-table tr:last-child td{border-bottom:none}
+
+/* ─── LAND CARDS ─── */
+.land-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin:1.5rem 0}
+.land-card{
+  background:#fff;border:1px solid var(--rule);padding:1.6rem;
+  transition:box-shadow 0.3s
+}
+.land-card:hover{box-shadow:0 8px 30px rgba(10,186,181,0.1)}
+.land-card-head{
+  display:flex;justify-content:space-between;align-items:flex-start;
+  padding-bottom:1rem;border-bottom:1px solid #f0f0f0;margin-bottom:1rem
+}
+.land-loc{
+  font-family:'Cormorant Garamond',serif;font-size:1.3rem;
+  font-weight:500;color:var(--charcoal)
+}
+.land-tag{
+  font-size:0.55rem;letter-spacing:0.15em;text-transform:uppercase;
+  background:var(--tiffany-light);color:var(--tiffany-dark);
+  padding:0.25rem 0.6rem;font-weight:700;white-space:nowrap
+}
+.land-stats{display:grid;grid-template-columns:1fr 1fr 1fr;gap:0.6rem;margin-bottom:0.9rem}
+.ls label{
+  display:block;font-size:0.52rem;letter-spacing:0.15em;
+  text-transform:uppercase;color:var(--silver);margin-bottom:0.15rem
+}
+.ls span{
+  font-family:'Cormorant Garamond',serif;font-size:1.05rem;
+  font-weight:500;color:var(--tiffany-dark)
+}
+.land-thesis{
+  font-size:0.74rem;color:var(--silver);font-style:italic;
+  border-left:2px solid var(--tiffany);padding-left:0.8rem;line-height:1.6
+}
+
+/* ─── SDG GRID ─── */
+.sdg-grid{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+  gap:1px;background:rgba(255,255,255,0.12);margin:1.5rem 0
+}
+.sdg-card{background:rgba(255,255,255,0.07);padding:1.3rem;text-align:center}
+.sdg-num{
+  font-family:'Cormorant Garamond',serif;font-size:1.8rem;font-weight:300;
+  color:rgba(255,255,255,0.35);line-height:1;margin-bottom:0.2rem
+}
+.sdg-name{
+  font-size:0.65rem;font-weight:700;letter-spacing:0.08em;
+  color:#fff;text-transform:uppercase;margin-bottom:0.4rem
+}
+.sdg-desc{font-size:0.7rem;color:rgba(255,255,255,0.6);line-height:1.55}
+
+/* ─── NOBLE BLOOM ─── */
+.bloom-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:2rem;margin-top:1.5rem}
+.bloom-col h4{
+  font-size:0.6rem;letter-spacing:0.2em;text-transform:uppercase;
+  color:var(--tiffany);font-weight:700;margin-bottom:0.7rem
+}
+.bloom-col ul{list-style:none;font-size:0.8rem;color:var(--ink);line-height:2.1}
+.bloom-col ul li::before{content:'— ';color:var(--tiffany)}
+
+/* ─── THESIS GRID ─── */
+.thesis-grid{
+  display:grid;grid-template-columns:repeat(4,1fr);
+  gap:1px;background:rgba(10,186,181,0.25);margin:2rem 0
+}
+.thesis-item{background:var(--charcoal);padding:1.8rem 1.2rem;text-align:center}
+.thesis-icon{font-size:1.4rem;margin-bottom:0.6rem}
+.thesis-title{
+  font-size:0.6rem;letter-spacing:0.2em;text-transform:uppercase;
+  color:var(--tiffany);font-weight:700;margin-bottom:0.4rem
+}
+.thesis-body{font-size:0.73rem;color:rgba(255,255,255,0.6);line-height:1.55}
+
+/* ─── BIO BLOCK ─── */
+.bio-grid{
+  display:grid;grid-template-columns:1fr 2fr;
+  gap:3rem;align-items:start;
+  background:#fff;border:1px solid var(--rule);padding:2.5rem;margin:2rem 0
+}
+.bio-left{border-right:1px solid var(--rule);padding-right:3rem}
+.bio-name{
+  font-family:'Cormorant Garamond',serif;font-size:1.7rem;
+  font-weight:400;color:var(--charcoal);margin-bottom:0.2rem
+}
+.bio-role{
+  font-size:0.6rem;letter-spacing:0.18em;text-transform:uppercase;
+  color:var(--tiffany);font-weight:700;margin-bottom:1.2rem
+}
+.bio-contact{font-size:0.76rem;color:var(--silver);line-height:2.2}
+.bio-contact a{color:var(--tiffany-dark)}
+.bio-mems-label{
+  font-size:0.55rem;letter-spacing:0.2em;text-transform:uppercase;
+  color:var(--silver);margin:1.2rem 0 0.5rem
+}
+.bio-mems ul{list-style:none;font-size:0.72rem;color:var(--ink);line-height:2}
+.bio-mems ul li::before{content:'· ';color:var(--tiffany)}
+.bio-right p.body{margin-bottom:0.9rem}
+
+/* ─── INVESTOR FORM CTA ─── */
+#invest{background:var(--charcoal);padding:5rem 0}
+.form-section-inner{
+  max-width:680px;margin:0 auto;text-align:center;padding:0 1.5rem
+}
+.form-badge{
+  display:inline-block;
+  background:rgba(10,186,181,0.12);border:1px solid rgba(10,186,181,0.3);
+  color:var(--tiffany);font-size:0.58rem;letter-spacing:0.2em;
+  text-transform:uppercase;font-weight:700;padding:0.4rem 1rem;margin-bottom:1.5rem
+}
+.form-lead{
+  font-family:'Cormorant Garamond',serif;font-size:1.5rem;
+  font-weight:300;color:#fff;line-height:1.45;margin-bottom:0.8rem
+}
+.form-sub{font-size:0.8rem;color:rgba(255,255,255,0.55);margin-bottom:2rem;line-height:1.7}
+.form-steps{
+  display:flex;gap:1px;background:rgba(255,255,255,0.1);
+  margin-bottom:2.5rem
+}
+.form-step{
+  flex:1;background:rgba(255,255,255,0.04);
+  padding:1rem 0.5rem;text-align:center
+}
+.form-step-num{
+  font-family:'Cormorant Garamond',serif;font-size:1.6rem;
+  color:var(--tiffany);font-weight:300;line-height:1;margin-bottom:0.3rem
+}
+.form-step-lbl{font-size:0.6rem;color:rgba(255,255,255,0.5);letter-spacing:0.1em;text-transform:uppercase}
+.btn-invest{
+  display:inline-block;background:var(--tiffany);color:#fff;
+  padding:1.1rem 3rem;font-size:0.78rem;font-weight:700;
+  letter-spacing:0.2em;text-transform:uppercase;
+  border:none;cursor:pointer;transition:background 0.2s;margin-bottom:1rem;
+  width:100%;max-width:380px
+}
+.btn-invest:hover{background:var(--tiffany-dark);text-decoration:none;color:#fff}
+.form-note{font-size:0.65rem;color:rgba(255,255,255,0.3);line-height:1.7}
+.form-note a{color:rgba(10,186,181,0.7)}
+
+/* ─── TOUR CTA ─── */
+.tour-bar{
+  background:linear-gradient(135deg,var(--tiffany-dark),var(--tiffany));
+  padding:2.5rem;text-align:center;margin:2.5rem 0
+}
+.tour-bar h3{
+  font-family:'Cormorant Garamond',serif;font-size:1.5rem;
+  font-weight:300;color:#fff;margin-bottom:0.4rem
+}
+.tour-bar p{font-size:0.8rem;color:rgba(255,255,255,0.8);margin-bottom:1.2rem}
+.btn-tour{
+  display:inline-block;background:#fff;color:var(--tiffany-dark);
+  padding:0.8rem 2rem;font-size:0.7rem;font-weight:700;
+  letter-spacing:0.15em;text-transform:uppercase;
+  transition:all 0.2s
+}
+.btn-tour:hover{background:var(--charcoal);color:var(--tiffany);text-decoration:none}
+
+/* ─── NEXT STEPS ─── */
+.steps-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin:1.5rem 0}
+.step-card{
+  background:#fff;border:1px solid var(--rule);padding:1.5rem;
+  transition:box-shadow 0.2s
+}
+.step-card:hover{box-shadow:0 4px 20px rgba(10,186,181,0.1)}
+.step-num{
+  font-family:'Cormorant Garamond',serif;font-size:2.2rem;
+  font-weight:300;color:var(--tiffany);line-height:1;margin-bottom:0.4rem
+}
+.step-title{font-size:0.75rem;font-weight:700;color:var(--charcoal);margin-bottom:0.3rem}
+.step-desc{font-size:0.74rem;color:var(--silver);line-height:1.6}
+
+/* ─── CONTACT BAND ─── */
+.contact-band{
+  background:var(--charcoal);padding:3rem;
+  display:grid;grid-template-columns:repeat(3,1fr);gap:2rem;
+  margin-top:3rem
+}
+.contact-item-label{
+  font-size:0.55rem;letter-spacing:0.2em;text-transform:uppercase;
+  color:rgba(255,255,255,0.3);margin-bottom:0.3rem
+}
+.contact-item-val{font-size:0.9rem;color:var(--tiffany)}
+.contact-item-val a{color:var(--tiffany)}
+
+/* ─── DISCLAIMER ─── */
+.disclaimer{
+  background:#f0f0f0;border-left:2px solid var(--rule);
+  padding:1.2rem 1.5rem;margin:2rem 0;
+  font-size:0.7rem;color:var(--silver);line-height:1.75
+}
+
+/* ─── FOOTER ─── */
+footer{
+  background:#0d0d0d;padding:2.5rem;text-align:center;
+  border-top:1px solid rgba(10,186,181,0.15)
+}
+.footer-brand{
+  font-family:'Cormorant Garamond',serif;font-size:1rem;
+  font-weight:300;letter-spacing:0.2em;color:var(--tiffany);margin-bottom:0.3rem
+}
+.footer-tag{
+  font-size:0.55rem;letter-spacing:0.15em;text-transform:uppercase;
+  color:rgba(255,255,255,0.2);margin-bottom:0.8rem
+}
+.footer-links{font-size:0.65rem;color:rgba(255,255,255,0.3);margin-bottom:0.5rem}
+.footer-links a{color:rgba(10,186,181,0.6);margin:0 0.5rem}
+.footer-legal{font-size:0.58rem;color:rgba(255,255,255,0.18);line-height:1.8}
+
+/* ─── RESPONSIVE ─── */
+@media(max-width:900px){
+  .nav-links{display:none}
+  .nav-hamburger{display:flex}
+  .check-grid{grid-template-columns:1fr}
+  .nht-grid,.land-grid{grid-template-columns:1fr}
+  .bloom-grid{grid-template-columns:1fr}
+  .thesis-grid{grid-template-columns:1fr 1fr}
+  .bio-grid{grid-template-columns:1fr}
+  .bio-left{border-right:none;padding-right:0;border-bottom:1px solid var(--rule);padding-bottom:2rem}
+  .contact-band{grid-template-columns:1fr}
+  .steps-grid{grid-template-columns:1fr}
+  .exec-kpi-row{grid-template-columns:1fr 1fr}
+}
+@media(max-width:580px){
+  .thesis-grid{grid-template-columns:1fr}
+  .exec-kpi-row{grid-template-columns:1fr 1fr}
+  .land-stats{grid-template-columns:1fr 1fr}
+  :root{--nav-h:56px}
+  .hero-title{font-size:2.2rem}
+}
+</style>
+</head>
+<body>
+
+<!-- ══ STICKY NAV ══ -->
+<nav id="main-nav" role="navigation" aria-label="Main navigation">
+  <div class="nav-inner">
+    <div class="nav-brand">StrongHer Consulting</div>
+    <ul class="nav-links" role="list">
+      <li><a href="#exec-summary">Exec Summary</a></li>
+      <li><a href="#why-jamaica">Why Jamaica</a></li>
+      <li><a href="#crisis">Housing Crisis</a></li>
+      <li><a href="#nht">NHT Guide</a></li>
+      <li><a href="#pipeline">Land Pipeline</a></li>
+      <li><a href="#esg">ESG &amp; SDGs</a></li>
+      <li><a href="#noble-bloom">Noble Bloom</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#invest" class="nav-cta">Invest Now</a></li>
+    </ul>
+    <button class="nav-hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+<div class="nav-mobile" id="mobile-menu" role="dialog" aria-label="Mobile navigation">
+  <ul>
+    <li><a href="#exec-summary" class="mob-link">Executive Summary</a></li>
+    <li><a href="#why-jamaica" class="mob-link">Why Jamaica</a></li>
+    <li><a href="#crisis" class="mob-link">Housing Crisis</a></li>
+    <li><a href="#nht" class="mob-link">NHT Guide</a></li>
+    <li><a href="#pipeline" class="mob-link">Land Pipeline</a></li>
+    <li><a href="#pricing" class="mob-link">Pricing &amp; Income</a></li>
+    <li><a href="#esg" class="mob-link">ESG &amp; SDGs</a></li>
+    <li><a href="#noble-bloom" class="mob-link">Noble Bloom Grant</a></li>
+    <li><a href="#about" class="mob-link">About StrongHer</a></li>
+    <li><a href="#next-steps" class="mob-link">Next Steps</a></li>
+  </ul>
+  <a href="#invest" class="mob-cta mob-link">Begin Investor Process →</a>
+</div>
+
+<!-- ══ HERO ══ -->
+<section id="hero" aria-labelledby="hero-title">
+  <div class="hero-top-bar"></div>
+  <div class="hero-inner">
+    <div class="hero-brand-name">StrongHer Consulting, LLC</div>
+    <div class="hero-tagline-brand">Empowering Innovation &nbsp;|&nbsp; Advancing Sustainability &nbsp;|&nbsp; Unlocking Capital</div>
+    <div class="hero-divider"></div>
+    <h1 class="hero-title" id="hero-title">Jamaica <em>Affordable Housing</em><br>Supply Initiative</h1>
+    <p class="hero-subtitle">Developer &amp; Investor Intelligence Briefing · 2026</p>
+    <div class="hero-badges" role="list">
+      <span class="badge" role="listitem">Policy-Aligned</span>
+      <span class="badge" role="listitem">Demand-Secured</span>
+      <span class="badge" role="listitem">ESG-Driven</span>
+      <span class="badge" role="listitem">NHT-Structured</span>
+      <span class="badge" role="listitem">Immediately Executable</span>
+    </div>
+    <div class="hero-cta-row">
+      <a href="#exec-summary" class="btn-primary">Read Executive Summary</a>
+      <a href="#invest" class="btn-outline">Begin Investor Process →</a>
+    </div>
+    <div class="hero-prepared">
+      <div class="hero-prep-label">Prepared by</div>
+      <div class="hero-prep-name">Wendy Cowan, Senior Consultant — StrongHer Consulting, LLC</div>
+      <div class="hero-prep-detail">wendycowansells@gmail.com &nbsp;·&nbsp; +1-407-276-6254</div>
+    </div>
+    <div class="hero-affiliations">
+      Jamaica Global Diaspora Task &amp; Action Network &nbsp;·&nbsp; FIABCI — International Real Estate Federation &nbsp;·&nbsp; Habitat for Humanity &nbsp;·&nbsp; National Association of Realtors &nbsp;·&nbsp; Florida Realtors &nbsp;·&nbsp; Orlando Regional Realtors Association &nbsp;·&nbsp; UNA-USA Champion Chair &amp; Board Member 2025–27 &nbsp;·&nbsp; UN-Habitat World Urban Forum Delegate &nbsp;·&nbsp; City of Orlando Clean Energy &amp; Green Building Sub-Committee
+    </div>
+  </div>
+</section>
+
+<!-- ══ EXECUTIVE FINANCIAL SUMMARY ══ -->
+<section class="section" id="exec-summary" aria-labelledby="exec-title">
+  <div class="wrap">
+    <span class="eyebrow">Executive Financial Summary · For the Analytical Investor</span>
+    <h2 class="section-title" id="exec-title">The Investment Case at a Glance</h2>
+    <span class="section-rule"></span>
+
+    <!-- KPI row -->
+    <div class="stats-grid" role="list" aria-label="Key investment metrics">
+      <div class="stat-card" role="listitem">
+        <div class="stat-num">150K+</div>
+        <div class="stat-lbl">Unit Housing Deficit<br><small style="font-size:0.58rem;color:#888;font-weight:400">(PM Holness, 2024–26)</small></div>
+      </div>
+      <div class="stat-card" role="listitem">
+        <div class="stat-num">3,300+</div>
+        <div class="stat-lbl">Immediate Pipeline<br>Units Available</div>
+      </div>
+      <div class="stat-card" role="listitem">
+        <div class="stat-num">$23.5M</div>
+        <div class="stat-lbl">Total Land Entry<br>Cost (USD)</div>
+      </div>
+      <div class="stat-card" role="listitem">
+        <div class="stat-num">$0</div>
+        <div class="stat-lbl">Speculative Risk<br><small style="font-size:0.58rem;color:#888;font-weight:400">NHT-Guaranteed Absorption</small></div>
+      </div>
+      <div class="stat-card" role="listitem">
+        <div class="stat-num">6M+</div>
+        <div class="stat-lbl">Total Addressable<br>Buyer Pool</div>
+      </div>
+      <div class="stat-card" role="listitem">
+        <div class="stat-num">~$6,958</div>
+        <div class="stat-lbl">Avg. Blended Land<br>Cost Per Unit</div>
+      </div>
+    </div>
+
+    <!-- Financial Summary Box -->
+    <div class="exec-box" role="region" aria-label="Executive financial metrics">
+      <div class="exec-box-header">Financial Snapshot — Key Numbers for the Analytical Investor</div>
+      <div class="exec-kpi-row">
+        <div class="exec-kpi">
+          <div class="exec-kpi-val">$95K</div>
+          <div class="exec-kpi-lbl">Target Sale Price<br>Single NHT Buyer</div>
+        </div>
+        <div class="exec-kpi">
+          <div class="exec-kpi-val">$190K</div>
+          <div class="exec-kpi-lbl">Target Sale Price<br>Dual NHT Voucher</div>
+        </div>
+        <div class="exec-kpi">
+          <div class="exec-kpi-val">80%+</div>
+          <div class="exec-kpi-lbl">Units Guaranteed<br>NHT Purchase</div>
+        </div>
+        <div class="exec-kpi">
+          <div class="exec-kpi-val">25K</div>
+          <div class="exec-kpi-lbl">Total Pipeline<br>Unit Access</div>
+        </div>
+      </div>
+      <p style="font-size:0.78rem;color:rgba(255,255,255,0.6);line-height:1.8">
+        <strong style="color:rgba(255,255,255,0.85)">Bottom line for the financial analyst:</strong> This is a structurally undersupplied, government-underwritten housing market with a built-in institutional buyer (NHT), mandatory affordability pricing bands that define exit values, and a publicly acknowledged 150,000-unit deficit. The National Housing Trust absorbs sales risk under its Guaranteed Purchase Programme (GPP), guaranteeing to purchase a minimum of 80% of completed units. Unit pricing is bounded by policy — 3BR units target $77,400–$116,100 USD — and dual-income NHT "two voucher" qualification extends the addressable market to ~$190,000. Land entry at ~$6,958/unit blended leaves significant margin within NHT affordability caps before construction costs. This is not speculative demand. It is income-verified, policy-backed, and immediately executable.
+      </p>
+    </div>
+
+    <div class="disclaimer">
+      <strong>Currency Conversion Notice:</strong> All JMD figures converted at 1 USD = 155 JMD. Source: Bank of Jamaica indicative rate, March 2026. All figures are approximations and subject to market fluctuation. Independent due diligence required prior to any investment decision.
+    </div>
+  </div>
+</section>
+
+<!-- ══ WHY JAMAICA ══ -->
+<section class="tiffany-light-section" id="why-jamaica" aria-labelledby="why-title">
+  <div class="wrap">
+    <span class="eyebrow">Strategic Geography</span>
+    <h2 class="section-title" id="why-title">Why Jamaica</h2>
+    <span class="section-rule" style="background:var(--tiffany-dark)"></span>
+
+    <p class="lead" style="color:var(--ink)">Jamaica sits at a strategic crossroads of the Americas — one of the most advantageously positioned investment destinations in the entire Caribbean basin, with a government-backed demand engine that no other market in the region can match.</p>
+
+    <p class="body">Located within a 2–4 hour flight radius of Miami, Atlanta, Houston, New York, Toronto, and Panama City, Jamaica functions as a centralized logistics and mobility hub between North America, Latin America, and Europe. Three international airports — Norman Manley International (Kingston), Sangster International (Montego Bay), and Ian Fleming International — connect Jamaica via 45–55 direct routes to global gateway cities, making investor access seamless and diaspora mobility exceptional.</p>
+
+    <p class="body">Beyond geography, Jamaica offers a highly educated, English-speaking workforce operating within a strong British-inherited legal framework — a critical institutional advantage for international developers. The country produces exceptional talent in education, healthcare, engineering, hospitality, and public service: exactly the professionals who constitute the stable, NHT-contributing workforce that underpins non-speculative housing demand.</p>
+
+    <p class="body">With approximately 3 million Jamaicans on-island and another 3 million in the global diaspora — an almost perfect balance — Jamaica benefits from one of the strongest remittance economies in the world. Remittances fuel homeownership aspirations, and diaspora return migration (estimated at 15–20% long-term potential) adds a buyer pool that exceeds the current 150,000-unit deficit when projected over a decade.</p>
+
+    <div class="callout">
+      "The demand access is not the constraint. The housing supply is the constraint." — The defining developer opportunity in Jamaica today.
+    </div>
+
+    <div class="stats-grid" style="grid-template-columns:repeat(3,1fr)">
+      <div class="stat-card">
+        <div class="stat-num" style="color:var(--tiffany-dark)">2–4h</div>
+        <div class="stat-lbl">Flight radius to major US, Canadian &amp; LatAm gateways</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num" style="color:var(--tiffany-dark)">50+</div>
+        <div class="stat-lbl">Direct global airport route connections</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num" style="color:var(--tiffany-dark)">3</div>
+        <div class="stat-lbl">International airports serving the island</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ HOUSING CRISIS ══ -->
+<section class="section" id="crisis" aria-labelledby="crisis-title">
+  <div class="wrap">
+    <span class="eyebrow">The Core Problem &amp; Opportunity</span>
+    <h2 class="section-title" id="crisis-title">Jamaica's Housing Crisis</h2>
+    <span class="section-rule"></span>
+
+    <p class="lead">Jamaica is experiencing an acute, structurally-rooted housing shortage. Prime Minister Andrew Holness has publicly acknowledged the nation requires approximately <strong>150,000 housing solutions over the next five to ten years</strong> — and the rest must be built by private developers.</p>
+
+    <p class="body">The Jamaica Information Service has documented surveys indicating a cumulative housing deficit reaching up to 450,000 units across all income levels, with the sector historically delivering fewer than 3,000 units per year against a national requirement of 12,000–15,000. Hurricane Melissa in 2025 worsened the acute shortfall dramatically — 20,000 properties received mortgage moratoriums and 5,000 emergency container homes were deployed. The NHT is targeting 10,675 new housing starts in the 2026/27 financial year alone, but this still falls dramatically short of need.</p>
+
+    <p class="body">This shortage is not a temporary market correction. It is a structural, government-acknowledged gap with a financing mechanism already operational. The government has solved the demand-side equation. The only remaining constraint is supply-side execution — which is precisely where private developers can enter with confidence, formal NHT partnerships, and favorable terms.</p>
+
+    <div class="check-grid">
+      <div class="ci">150,000+ unit acknowledged affordable housing deficit</div>
+      <div class="ci">Hurricane Melissa (2025) accelerated acute need</div>
+      <div class="ci">3,000 units/yr historically delivered vs. 12–15K needed</div>
+      <div class="ci">Government actively courting private developers</div>
+      <div class="ci">Resilience standards create high barrier to entry</div>
+      <div class="ci">NHT has pre-qualified buyer pipeline waiting</div>
+    </div>
+
+    <div class="callout">
+      All new developments must incorporate hurricane-resistant structural systems, flood mitigation and drainage engineering, and energy-efficient solar-ready design. These requirements create a high barrier to entry — meaning fewer competitors and guaranteed demand for developers who execute within NHT affordability bands.
+    </div>
+  </div>
+</section>
+
+<!-- ══ NHT GUIDE ══ -->
+<section class="dark-section" id="nht" aria-labelledby="nht-title">
+  <div class="wrap">
+    <span class="eyebrow">Understanding the Engine</span>
+    <h2 class="section-title" id="nht-title">The National Housing Trust:<br>A Developer's Complete Guide</h2>
+    <span class="section-rule"></span>
+
+    <p class="lead">The NHT is the Government of Jamaica's primary vehicle for affordable housing finance and delivery. Founded in 1976, it is the nation's largest mortgage lender — Jamaica's equivalent of a government-backed FHA with integrated construction finance capabilities for private developers.</p>
+
+    <p class="body">Every employed Jamaican contributes to the NHT — employees contribute 2% of gross wages, employers contribute 3%, and the self-employed contribute 3%. These contributions accumulate in individual accounts and become the foundation for mortgage eligibility. After a qualifying contribution period, contributors access NHT mortgage loans at subsidized interest rates with pricing caps designed for low-to-moderate income earners. <strong style="color:rgba(255,255,255,0.9)">The critical developer insight: NHT contributors are not aspirational buyers — they are verified, income-contributing professionals with a confirmed institutional exit mechanism.</strong></p>
+
+    <p class="sub-h">The Three Developer Partnership Pathways</p>
+    <div class="nht-grid">
+      <div class="nht-card">
+        <div class="nht-card-icon">🏗️</div>
+        <h4>Guaranteed Purchase Programme (GPP)</h4>
+        <p>The primary private-developer entry point. The NHT formally agrees to purchase all or a specified number of units upon completion, absorbing the sales risk entirely.</p>
+        <ul>
+          <li>Developer builds on own land to NHT specifications</li>
+          <li>NHT commits to purchase agreed number of units</li>
+          <li>NHT handles all marketing to contributors</li>
+          <li>Over 5,300 units currently under GPP approval</li>
+          <li>Contractually guaranteed institutional exit</li>
+        </ul>
+      </div>
+      <div class="nht-card">
+        <div class="nht-card-icon">🤝</div>
+        <h4>Developers' Programme</h4>
+        <p>NHT provides its own land. Developer uses the land title as collateral for construction financing and builds per NHT specifications.</p>
+        <ul>
+          <li>NHT supplies land — reduces developer capital requirement</li>
+          <li>Land title available to secure construction financing</li>
+          <li>NHT guarantees to purchase minimum 80% of completed units</li>
+          <li>Developer retains up to 20% for open-market disposal</li>
+          <li>Infrastructure costs reimbursed in phased valuation certs</li>
+        </ul>
+      </div>
+      <div class="nht-card">
+        <div class="nht-card-icon">🏢</div>
+        <h4>Joint Venture Programme</h4>
+        <p>Collaborative development combining NHT land, financial resources, and institutional relationships with private developer execution capacity.</p>
+        <ul>
+          <li>Shared land, capital, and risk between NHT and developer</li>
+          <li>NHT brings buyer pipeline and regulatory relationships</li>
+          <li>Ideal for large-scale master-planned communities</li>
+          <li>Model: $25B JMD Longville Meadows (2,064 units, 2025)</li>
+        </ul>
+      </div>
+      <div class="nht-card">
+        <div class="nht-card-icon">🏠</div>
+        <h4>Individual Mortgage Finance</h4>
+        <p>For developers building on own land and selling within NHT price caps, buyers access NHT mortgage financing directly.</p>
+        <ul>
+          <li>Single applicant loan limit: ~USD $48,400–$58,100</li>
+          <li>Joint applicants (dual voucher): ~USD $96,800+</li>
+          <li>Deposit assistance up to ~USD $12,900 (eff. July 2026)</li>
+          <li>Subsidized rates vs. commercial mortgage market</li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="sub-h">The Dual-Voucher Advantage — The Developer's Most Important Structural Insight</p>
+    <p class="body">Two NHT contributors in the same household can combine their individual benefit entitlements — colloquially known as "two vouchers" — to qualify for a significantly larger mortgage. This mechanism enables the purchase of 3-bedroom, approximately 1,000 sq ft family units that would be beyond the reach of a single contributor. Dual-income households — two teachers, a nurse and a civil servant, a police officer and a spouse — represent the deepest and most stable demand segment. Design your product mix around this demographic and you align perfectly with both NHT pricing caps and peak market demand.</p>
+
+    <p class="sub-h">Government Policy Updates — Effective July 1, 2026</p>
+    <div class="check-grid">
+      <div class="ci">5–10 years public service: 1% NHT mortgage rate reduction</div>
+      <div class="ci">10+ years public service: 2% NHT mortgage rate reduction</div>
+      <div class="ci">Teachers, nurses, firefighters, security forces: priority beneficiaries</div>
+      <div class="ci">20% of all NHT units reserved for buyers under age 35 (up from 10%)</div>
+      <div class="ci">Deposit assistance up to JMD $2,000,000 (~USD $12,900)</div>
+      <div class="ci">Home improvement wait reduced from 7 years to 5 years</div>
+    </div>
+
+    <div class="callout">
+      Assessment: The government has solved demand-side friction. Fiscal policy is now aligned with housing supply expansion, workforce stability, and long-term economic development. The market is constrained only by supply-side execution.
+    </div>
+  </div>
+</section>
+
+<!-- ══ PRICING & INCOME ══ -->
+<section class="section" id="pricing" aria-labelledby="pricing-title">
+  <div class="wrap">
+    <span class="eyebrow">Affordability Calibration</span>
+    <h2 class="section-title" id="pricing-title">NHT Pricing Framework &amp; Income Reality</h2>
+    <span class="section-rule"></span>
+
+    <p class="lead">Understanding buyer income profiles is fundamental to product design. The data below confirms that dual-income households are the primary target for 3-bedroom family units — and that demand within NHT caps is deep and verifiable.</p>
+
+    <h3 class="sub-h">NHT Unit Pricing Caps (USD Equivalent)</h3>
+    <div class="table-wrap">
+      <table class="data-table" aria-label="NHT unit pricing caps">
+        <thead>
+          <tr>
+            <th>Unit Type</th>
+            <th>JMD Price Band</th>
+            <th>USD Equivalent</th>
+            <th>Primary Buyer Profile</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>1-Bedroom</td><td>JMD $8M – $12M</td><td class="tiffany-val">~$51,600 – $77,400</td><td>Single NHT contributor</td></tr>
+          <tr><td>2-Bedroom</td><td>JMD $10M – $14M</td><td class="tiffany-val">~$64,500 – $90,300</td><td>Single or dual-income household</td></tr>
+          <tr><td>3-Bedroom</td><td>JMD $12M – $18M</td><td class="tiffany-val">~$77,400 – $116,100</td><td>Dual-income NHT household (2 vouchers)</td></tr>
+          <tr style="background:var(--tiffany-light)"><td><strong>Optimal — Single</strong></td><td>—</td><td class="tiffany-val"><strong>~$95,000</strong></td><td>Entry-level single contributor sweet spot</td></tr>
+          <tr style="background:var(--tiffany-light)"><td><strong>Optimal — Dual</strong></td><td>—</td><td class="tiffany-val"><strong>~$190,000</strong></td><td>Maximum dual-NHT benefit utilization</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3 class="sub-h">Workforce Income Benchmarks</h3>
+    <div class="table-wrap">
+      <table class="income-table" aria-label="Workforce income benchmarks">
+        <thead>
+          <tr>
+            <th>Profession</th>
+            <th>Monthly Income (JMD)</th>
+            <th>Monthly Income (USD)</th>
+            <th>Annual Income (USD)</th>
+            <th>NHT Qualification</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Police Officer</td><td>~$180K–$250K</td><td>~$1,160–$1,610</td><td>~$13,900–$19,300</td><td>Single: 1BR/2BR | Dual: 3BR</td></tr>
+          <tr><td>Teacher</td><td>~$150K–$220K</td><td>~$970–$1,420</td><td>~$11,600–$17,000</td><td>Single: 1BR/2BR | Dual: 3BR</td></tr>
+          <tr><td>Registered Nurse</td><td>~$200K–$300K</td><td>~$1,290–$1,935</td><td>~$15,500–$23,200</td><td>Single: 1BR/2BR | Dual: 3BR</td></tr>
+          <tr><td>Civil Servant / Firefighter</td><td>~$160K–$240K</td><td>~$1,030–$1,545</td><td>~$12,400–$18,500</td><td>Single: 1BR/2BR | Dual: 3BR</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="body" style="margin-top:1rem"><strong>Developer implication:</strong> Single-income buyers are constrained at 1BR–2BR. Dual-income NHT households unlock 3-bedroom family unit qualification. Design the majority of inventory in 2BR and 3BR configurations targeted at dual-income households — the highest-volume, most financially stable demand segment in the market.</p>
+  </div>
+</section>
+
+<!-- ══ LAND PIPELINE ══ -->
+<section class="tiffany-light-section" id="pipeline" aria-labelledby="pipeline-title">
+  <div class="wrap">
+    <span class="eyebrow">Immediate Opportunity</span>
+    <h2 class="section-title" id="pipeline-title">Land Pipeline: 3,300+ Units, Ready Now</h2>
+    <span class="section-rule" style="background:var(--tiffany-dark)"></span>
+
+    <p class="lead" style="color:var(--ink)">StrongHer Consulting has identified an immediately actionable portfolio of vetted land parcels across four Jamaican parishes, representing 3,300+ NHT-eligible units at a blended land cost of approximately $6,958 per unit — with access to a broader pipeline of 25,000 units.</p>
+
+    <div class="land-grid">
+      <div class="land-card">
+        <div class="land-card-head">
+          <div class="land-loc">St. Catherine</div>
+          <span class="land-tag">Core Volume Driver</span>
+        </div>
+        <div class="land-stats">
+          <div class="ls"><label>Acreage</label><span>400 ac</span></div>
+          <div class="ls"><label>Units</label><span>2,400</span></div>
+          <div class="ls"><label>Land Cost</label><span>$12M</span></div>
+        </div>
+        <div class="land-stats">
+          <div class="ls"><label>Cost / Unit</label><span>~$5,000</span></div>
+          <div class="ls"><label>Absorption</label><span>Primary</span></div>
+        </div>
+        <div class="land-thesis">Near Kingston growth corridor. Primary housing demand basin with strong infrastructure capacity. Ideal for master-planned, high-volume NHT take-out. Scalable to 6,000+ units with phased execution.</div>
+      </div>
+      <div class="land-card">
+        <div class="land-card-head">
+          <div class="land-loc">Portland</div>
+          <span class="land-tag">ESG + Diaspora</span>
+        </div>
+        <div class="land-stats">
+          <div class="ls"><label>Acreage</label><span>100 ac</span></div>
+          <div class="ls"><label>Units</label><span>600</span></div>
+          <div class="ls"><label>Land Cost</label><span>$5M</span></div>
+        </div>
+        <div class="land-stats">
+          <div class="ls"><label>Cost / Unit</label><span>~$8,333</span></div>
+          <div class="ls"><label>Market</label><span>Eco</span></div>
+        </div>
+        <div class="land-thesis">Emerging eco-destination with strong lifestyle positioning. ESG-aligned housing attractive to diaspora returnees. Sustainability narrative unlocks global impact capital pools and carbon credit eligibility.</div>
+      </div>
+      <div class="land-card">
+        <div class="land-card-head">
+          <div class="land-loc">St. Ann</div>
+          <span class="land-tag">Tourism Workforce</span>
+        </div>
+        <div class="land-stats">
+          <div class="ls"><label>Acreage</label><span>41 ac</span></div>
+          <div class="ls"><label>Units</label><span>~250</span></div>
+          <div class="ls"><label>Land Cost</label><span>$4M</span></div>
+        </div>
+        <div class="land-stats">
+          <div class="ls"><label>Cost / Unit</label><span>~$16,000</span></div>
+          <div class="ls"><label>Model</label><span>Hybrid</span></div>
+        </div>
+        <div class="land-thesis">Tourism-driven economy creates persistent workforce housing demand. Workforce housing plus rental demand hybrid model. Strong long-term appreciation fundamentals tied to regional tourism growth.</div>
+      </div>
+      <div class="land-card">
+        <div class="land-card-head">
+          <div class="land-loc">Galina</div>
+          <span class="land-tag">Fast-Track · Turnkey</span>
+        </div>
+        <div class="land-stats">
+          <div class="ls"><label>Acreage</label><span>14 ac</span></div>
+          <div class="ls"><label>Units</label><span>126</span></div>
+          <div class="ls"><label>Land Cost</label><span>$2.5M</span></div>
+        </div>
+        <div class="land-stats">
+          <div class="ls"><label>Cost / Unit</label><span>~$19,841</span></div>
+          <div class="ls"><label>Status</label><span>NEPA ✓</span></div>
+        </div>
+        <div class="land-thesis">Oceanfront location, fully approved by NEPA, infrastructure-ready. Immediate deployment and near-term returns. Premium positioning within NHT affordability band. 100% NHT absorption expected.</div>
+      </div>
+    </div>
+
+    <div class="table-wrap">
+      <table class="data-table" aria-label="Land pipeline portfolio summary">
+        <thead>
+          <tr>
+            <th>Location</th><th>Acreage</th><th>Units</th>
+            <th>Land Cost (USD)</th><th>Cost/Unit</th><th>Positioning</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>St. Catherine</td><td>400 ac</td><td>2,400</td><td>$12,000,000</td><td class="tiffany-val">$5,000</td><td>High-volume NHT driver near Kingston</td></tr>
+          <tr><td>Portland</td><td>100 ac</td><td>600</td><td>$5,000,000</td><td class="tiffany-val">$8,333</td><td>ESG + diaspora eco-market</td></tr>
+          <tr><td>St. Ann</td><td>41 ac</td><td>~250</td><td>$4,000,000</td><td class="tiffany-val">$16,000</td><td>Tourism workforce hybrid</td></tr>
+          <tr><td>Galina</td><td>14 ac</td><td>126</td><td>$2,500,000</td><td class="tiffany-val">$19,841</td><td>Fast-track oceanfront, NEPA approved</td></tr>
+          <tr class="total-row"><td><strong>Portfolio Total</strong></td><td><strong>555 ac</strong></td><td><strong>3,376+</strong></td><td><strong>$23,500,000</strong></td><td><strong style="color:var(--tiffany-dark)">~$6,958 avg</strong></td><td><strong>Full pipeline · 25K unit access</strong></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ══ DEVELOPMENT STRATEGY ══ -->
+<section class="section" id="strategy" aria-labelledby="strategy-title">
+  <div class="wrap">
+    <span class="eyebrow">Product &amp; Execution</span>
+    <h2 class="section-title" id="strategy-title">Integrated Development Strategy</h2>
+    <span class="section-rule"></span>
+
+    <p class="lead">Effective execution within the NHT framework requires a product designed from the buyer backward — starting with NHT contribution eligibility, pricing bands, and dual-income qualification structures.</p>
+
+    <h3 class="sub-h">Recommended Product Design</h3>
+    <p class="body">The optimal product mix targets 2-bedroom and 3-bedroom configurations within an approximately 1,000 sq ft initial footprint, designed for the dual-income family household. A flexible pre-fabricated design with expansion-ready foundations accommodates family growth while keeping initial entry costs within NHT caps. All units must incorporate hurricane-resistant structural systems, flood mitigation engineering, and solar-ready electrical infrastructure — regulatory requirements that also future-proof the asset and unlock ESG capital access.</p>
+
+    <div class="check-grid">
+      <div class="ci">2BR and 3BR family-oriented unit mix (primary)</div>
+      <div class="ci">~1,000 sq ft initial footprint, expansion-ready</div>
+      <div class="ci">Hurricane-resistant structural systems (mandatory)</div>
+      <div class="ci">Flood mitigation and drainage engineering</div>
+      <div class="ci">Solar-ready / energy-efficient design (mandatory)</div>
+      <div class="ci">Water harvesting infrastructure</div>
+      <div class="ci">Pre-fab or modular construction for cost efficiency</div>
+      <div class="ci">100% NHT-qualified buyer targeting</div>
+    </div>
+
+    <h3 class="sub-h">Target Buyer Segments (Priority Order)</h3>
+    <div class="nht-grid">
+      <div class="nht-card">
+        <h4>1. Public Sector Workers</h4>
+        <p>NHT-certified, pre-approved lender pipeline. Teachers, nurses, police, firefighters, civil servants. New 2026 rate reductions expand purchasing power. Highest absorption velocity and lowest default risk segment.</p>
+      </div>
+      <div class="nht-card">
+        <h4>2. Youth Buyers Under 35</h4>
+        <p>Minimum 20% allocation mandated by government policy (effective July 2026). NHT-certified, lender-approved. Deposit assistance of up to ~$12,900 USD directly accelerates qualification. Fastest-growing NHT segment.</p>
+      </div>
+      <div class="nht-card">
+        <h4>3. Diaspora Returnees</h4>
+        <p>Estimated 15–20% of the 3M global diaspora considering return migration over time. Remittance-backed, often higher purchasing capacity. Strong demand for ESG-aligned, climate-resilient communities in Portland and Galina markets.</p>
+      </div>
+      <div class="nht-card">
+        <h4>4. Tourism &amp; Service Sector</h4>
+        <p>Particularly relevant for St. Ann. Workforce housing plus rental demand hybrid. Stable employment base aligned with Jamaica's largest economic sector. Strong appreciation fundamentals driven by tourism growth.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ ESG & SDG ══ -->
+<section class="dark-section" id="esg" aria-labelledby="esg-title">
+  <div class="wrap">
+    <span class="eyebrow">Global Alignment</span>
+    <h2 class="section-title" id="esg-title">ESG, UN SDGs &amp; the Power<br>of Housing as Transformation</h2>
+    <span class="section-rule"></span>
+
+    <p class="lead">Safe, affordable, and ecosustainable housing is not merely a social good. It is the foundational infrastructure upon which health, education, economic productivity, and generational wealth are built. The evidence from Habitat for Humanity and UN-Habitat is unambiguous: when communities have safe, adequate homes, lives transform.</p>
+
+    <p class="body">UN-Habitat reports that housing affordability has reached crisis levels globally, affecting between 1.6 and 3 billion people, with 1.12 billion individuals currently living in slums or informal settlements facing overcrowding, homelessness, and lack of basic services. At current pace, 40% of the world will live in inadequate housing by 2030. As Habitat for Humanity has stated: <em>"We know from decades of working in communities around the world that safe, adequate and affordable housing leads to benefits in health, education and economic opportunity."</em></p>
+
+    <p class="body">This initiative directly delivers on UN SDG 11, Target 11.1 — ensuring access for all to adequate, safe and affordable housing and basic services by 2030 — while aligning with nine additional SDGs that make it eligible for ESG-designated capital from development finance institutions, impact funds, sovereign wealth funds, and green bond markets.</p>
+
+    <div class="sdg-grid" role="list" aria-label="UN Sustainable Development Goals alignment">
+      <div class="sdg-card" role="listitem">
+        <div class="sdg-num">SDG 1</div>
+        <div class="sdg-name">No Poverty</div>
+        <div class="sdg-desc">Homeownership is the primary wealth-building mechanism for low-income families, breaking intergenerational poverty cycles.</div>
+      </div>
+      <div class="sdg-card" role="listitem">
+        <div class="sdg-num">SDG 3</div>
+        <div class="sdg-name">Good Health</div>
+        <div class="sdg-desc">Safe, uncrowded, climate-resilient housing reduces respiratory illness, mental health crises, and disease transmission.</div>
+      </div>
+      <div class="sdg-card" role="listitem">
+        <div class="sdg-num">SDG 4</div>
+        <div class="sdg-name">Quality Education</div>
+        <div class="sdg-desc">Stable housing measurably improves children's educational outcomes. Overcrowded homes correlate directly with lower academic performance.</div>
+      </div>
+      <div class="sdg-card" role="listitem">
+        <div class="sdg-num">SDG 5</div>
+        <div class="sdg-name">Gender Equality</div>
+        <div class="sdg-desc">Female-headed households are disproportionately impacted by housing insecurity. Dual-NHT programs particularly benefit Jamaica's women workforce.</div>
+      </div>
+      <div class="sdg-card" role="listitem">
+        <div class="sdg-num">SDG 7</div>
+        <div class="sdg-name">Clean Energy</div>
+        <div class="sdg-desc">Solar-ready, energy-efficient construction mandates ensure every unit contributes to Jamaica's renewable energy transition.</div>
+      </div>
+      <div class="sdg-card" role="listitem">
+        <div class="sdg-num">SDG 8</div>
+        <div class="sdg-name">Decent Work</div>
+        <div class="sdg-desc">Workforce housing for teachers, nurses, and civil servants ensures essential service retention and community economic stability.</div>
+      </div>
+      <div class="sdg-card" role="listitem">
+        <div class="sdg-num">SDG 10</div>
+        <div class="sdg-name">Reduced Inequality</div>
+        <div class="sdg-desc">NHT affordability caps and government grants ensure homeownership access across income levels, not only for those at market prices.</div>
+      </div>
+      <div class="sdg-card" role="listitem">
+        <div class="sdg-num">SDG 11</div>
+        <div class="sdg-name">Sustainable Cities</div>
+        <div class="sdg-desc">Target 11.1: access for all to adequate, safe, affordable housing by 2030. This initiative is a direct and measurable contribution.</div>
+      </div>
+      <div class="sdg-card" role="listitem">
+        <div class="sdg-num">SDG 13</div>
+        <div class="sdg-name">Climate Action</div>
+        <div class="sdg-desc">Hurricane-resistant, flood-mitigated, solar-ready construction creates communities resilient to Caribbean climate realities.</div>
+      </div>
+      <div class="sdg-card" role="listitem">
+        <div class="sdg-num">SDG 17</div>
+        <div class="sdg-name">Partnerships</div>
+        <div class="sdg-desc">The NHT public-private framework, Noble Bloom philanthropy, and employer co-funding embody multi-stakeholder partnership for SDG delivery.</div>
+      </div>
+    </div>
+
+    <p class="body" style="margin-top:1.5rem">Developments certified for climate resilience, energy efficiency, and social impact metrics qualify for ESG capital pools that are actively seeking de-risked, government-aligned affordable housing in emerging markets. Carbon credit monetization opportunities exist for verified green building practices — representing an additional revenue stream for developers.</p>
+  </div>
+</section>
+
+<!-- ══ NOBLE BLOOM ══ -->
+<section class="section" id="noble-bloom" aria-labelledby="bloom-title">
+  <div class="wrap">
+    <span class="eyebrow">Value Accelerator</span>
+    <h2 class="section-title" id="bloom-title">The Noble Bloom Grant Program</h2>
+    <span class="section-rule"></span>
+    <p class="lead" style="font-style:italic">"Bloom where you are planted."</p>
+
+    <p class="body">To bridge the remaining affordability gap for Jamaica's most essential workers and dramatically accelerate developer absorption velocity, StrongHer Consulting proposes the Noble Bloom Grant Program — a developer-government co-structured forgivable grant initiative aligned with JFC FOR YOU, Inc., a Florida-based 501(c)3 non-profit dedicated to serving the underserved globally.</p>
+
+    <div class="bloom-grid">
+      <div class="bloom-col">
+        <h4>Grant Structure</h4>
+        <ul>
+          <li>$5,000–$10,000 USD per unit</li>
+          <li>Fully forgivable after 5 years of primary residence occupancy</li>
+          <li>Registered as secondary lien</li>
+          <li>20% annual forgiveness rate</li>
+          <li>Primary residence requirement only</li>
+        </ul>
+      </div>
+      <div class="bloom-col">
+        <h4>Target Beneficiaries</h4>
+        <ul>
+          <li>Public servants with 10+ years service</li>
+          <li>Teachers, nurses, police, firefighters</li>
+          <li>Youth buyers under age 35</li>
+          <li>Long-term community contributors</li>
+          <li>Eligible diaspora returnees</li>
+        </ul>
+      </div>
+      <div class="bloom-col">
+        <h4>Strategic Impact</h4>
+        <ul>
+          <li>Bridges affordability gap for core workforce</li>
+          <li>Enables 3-bedroom family unit qualification</li>
+          <li>Increases dual-NHT voucher utilization</li>
+          <li>Accelerates developer absorption velocity</li>
+          <li>Strengthens community stability and workforce retention</li>
+        </ul>
+      </div>
+    </div>
+
+    <h3 class="sub-h">Employer Co-Funding Expansion</h3>
+    <p class="body">Private sector employers seeking to incentivize long-term employees, reduce turnover, and strengthen workforce retention can co-fund Noble Bloom grants for their 10+ year employees. This transforms the program into a powerful talent retention tool while simultaneously accelerating unit absorption — creating a three-way alignment between developer, employer, and community.</p>
+
+    <div class="callout">
+      With the Noble Bloom Program fully integrated, this initiative becomes the benchmark model for public-private affordable housing delivery in Jamaica — delivering financial returns, national impact, and long-term housing resilience simultaneously.
+    </div>
+  </div>
+</section>
+
+<!-- ══ INVESTMENT THESIS ══ -->
+<section class="dark-section" id="thesis" aria-labelledby="thesis-title">
+  <div class="wrap">
+    <span class="eyebrow">Final Assessment</span>
+    <h2 class="section-title" id="thesis-title">The Investment Thesis</h2>
+    <span class="section-rule"></span>
+
+    <p class="lead">Jamaica's affordable housing sector offers one of the most compelling risk-adjusted development opportunities in the Caribbean — a rare convergence of government-guaranteed exit, deep structural demand, institutional financing infrastructure, and ESG eligibility.</p>
+
+    <div class="thesis-grid" role="list" aria-label="Investment thesis pillars">
+      <div class="thesis-item" role="listitem">
+        <div class="thesis-icon">📊</div>
+        <div class="thesis-title">Financial Return</div>
+        <div class="thesis-body">Predictable, policy-backed absorption via NHT institutional purchase. Guaranteed buyer pipeline. Not speculative — structurally undersupplied.</div>
+      </div>
+      <div class="thesis-item" role="listitem">
+        <div class="thesis-icon">🇯🇲</div>
+        <div class="thesis-title">National Impact</div>
+        <div class="thesis-body">150,000-unit acknowledged deficit. Workforce housing for teachers, nurses, civil servants. Community-building at meaningful scale.</div>
+      </div>
+      <div class="thesis-item" role="listitem">
+        <div class="thesis-icon">⚖️</div>
+        <div class="thesis-title">Policy Alignment</div>
+        <div class="thesis-body">Government-backed demand. PM Holness explicitly invites private developers. Rate reductions and incentives expand buyer pool July 2026.</div>
+      </div>
+      <div class="thesis-item" role="listitem">
+        <div class="thesis-icon">🌿</div>
+        <div class="thesis-title">ESG Compliance</div>
+        <div class="thesis-body">Mandatory resilience standards. Solar-ready construction. 10 SDGs directly aligned. Access to global impact capital and carbon credit markets.</div>
+      </div>
+    </div>
+
+    <div class="callout">
+      This is a de-risked, scalable development opportunity with a guaranteed institutional exit via NHT-qualified buyers, government-aligned incentives taking effect July 2026, and an immediate pipeline of 3,300+ units scalable to a broader 25,000-unit access. The Noble Bloom Grant Program elevates this into a benchmark public-private housing model for Jamaica.
+    </div>
+  </div>
+</section>
+
+<!-- ══ ABOUT STRONGHER ══ -->
+<section class="section" id="about" aria-labelledby="about-title">
+  <div class="wrap">
+    <span class="eyebrow">Advisory Authority</span>
+    <h2 class="section-title" id="about-title">About StrongHer Consulting</h2>
+    <span class="section-rule"></span>
+
+    <div class="bio-grid">
+      <div class="bio-left">
+        <div class="bio-name">Wendy Cowan</div>
+        <div class="bio-role">Senior Consultant &amp; Founder</div>
+        <div class="bio-contact">
+          <div>📧 <a href="mailto:wendycowansells@gmail.com">wendycowansells@gmail.com</a></div>
+          <div>📞 <a href="tel:+14072766254">+1-407-276-6254</a></div>
+          <div>🌐 <a href="https://www.strongherconsulting.com" target="_blank" rel="noopener">strongherconsulting.com</a></div>
+          <div>🔗 <a href="https://www.linkedin.com/in/globallywendy" target="_blank" rel="noopener">linkedin.com/in/globallywendy</a></div>
+        </div>
+        <div class="bio-mems-label">Affiliations &amp; Roles</div>
+        <div class="bio-mems">
+          <ul>
+            <li>UNA-USA Champion Chair &amp; Board Member (2025–27)</li>
+            <li>UN-Habitat World Urban Forum Delegate</li>
+            <li>FIABCI – International Real Estate Federation</li>
+            <li>Habitat for Humanity Member</li>
+            <li>Jamaica Global Diaspora Task &amp; Action Network</li>
+            <li>City of Orlando Clean Energy &amp; Green Building Sub-Committee</li>
+            <li>National Association of Realtors | Florida Realtors | ORRA</li>
+            <li>USGBC &amp; GREEN Realtor Certified Speaker</li>
+            <li>Licensed Florida Realtor — 18+ Years</li>
+            <li>Former Series 7 SEC-Licensed Stockbroker &amp; Financial Planner</li>
+            <li>Official Blockstation Representative (T-IPO)</li>
+            <li>World Property Network License Holder — Jamaica</li>
+          </ul>
+        </div>
+      </div>
+      <div class="bio-right">
+        <p class="body">StrongHer Consulting, LLC is a premier global advisory firm founded on the conviction that sustainable development, affordable housing, and access to capital are inseparable. Wendy Cowan's 18+ years as a licensed real estate professional and former Series 7 SEC-licensed stockbroker provide a unique ability to bridge Wall Street capital and ground-level housing delivery — translating Jamaica's NHT framework into actionable opportunities for sophisticated developers and impact-oriented capital partners.</p>
+        <p class="body">As a USGBC GREEN Realtor and globally recognized eco-sustainability expert and speaker, Wendy integrates clean energy principles, climate resilience, and ESG compliance into every advisory engagement. In the Caribbean context, sustainability is not a premium feature — it is a regulatory requirement and a primary value driver.</p>
+        <p class="body">StrongHer's alignment with the United Nations SDGs — particularly SDG 11 (Sustainable Cities and Communities) and SDG 1 (No Poverty) — is embedded in every engagement. As a UN-Habitat World Urban Forum Delegate and UNA-USA Champion Chair, Wendy brings direct institutional relationships and a rigorous understanding of how international housing policy frameworks translate into bankable real estate opportunities.</p>
+        <p class="body">The firm's World Property Network License for Jamaica, active FIABCI membership, and Jamaica Global Diaspora Task &amp; Action Network participation provide immediate on-island relationships, market intelligence, and government access — the connective tissue between investor intention and project execution.</p>
+        <p class="body" style="color:var(--tiffany-dark);font-weight:600">StrongHer Consulting is a United Nations award-winning firm. We do not merely advise on affordable housing — we advocate for it, facilitate it, and ensure the capital, policy, and development capacity align to deliver it at scale.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ NEXT STEPS ══ -->
+<section class="tiffany-light-section" id="next-steps" aria-labelledby="next-title">
+  <div class="wrap">
+    <span class="eyebrow">Engage Now</span>
+    <h2 class="section-title" id="next-title">Next Steps</h2>
+    <span class="section-rule" style="background:var(--tiffany-dark)"></span>
+    <p class="lead" style="color:var(--ink)">The pipeline is immediate. The demand is guaranteed. The policy is aligned. We are ready to move.</p>
+
+    <div class="steps-grid">
+      <div class="step-card"><div class="step-num">01</div><div class="step-title">Complete Investor Questionnaire</div><div class="step-desc">Complete our KYC/AML investor questionnaire (Google Form). Confidential. Takes approximately 5 minutes.</div></div>
+      <div class="step-card"><div class="step-num">02</div><div class="step-title">Financial Models &amp; Pro Forma</div><div class="step-desc">Site-level financial models, phasing strategy, and capital structuring review with StrongHer Consulting.</div></div>
+      <div class="step-card"><div class="step-num">03</div><div class="step-title">Government Introductions</div><div class="step-desc">Minister of Housing meeting facilitation. JamPro and government minister introductions. NHT partnership alignment.</div></div>
+      <div class="step-card"><div class="step-num">04</div><div class="step-title">Site Visit — Jamaica</div><div class="step-desc">In-person site visits to all four land parcels. On-island meetings with government stakeholders and NHT.</div></div>
+      <div class="step-card"><div class="step-num">05</div><div class="step-title">Letter of Intent</div><div class="step-desc">Letter of Intent preparation, review, and submission to commence formal partnership negotiations.</div></div>
+      <div class="step-card"><div class="step-num">06</div><div class="step-title">Capital Structuring</div><div class="step-desc">Public-private partnership alignment. ESG capital pool access. Noble Bloom grant program integration.</div></div>
+    </div>
+
+    <div class="tour-bar">
+      <h3>Jamaica Opportunities Discovery Tour</h3>
+      <p>Join Wendy Cowan for an in-depth, curated on-island site visit and government stakeholder engagement. June 22–30, 2026.</p>
+      <a href="#invest" class="btn-tour">Reserve Your Place →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══ INVESTOR FORM CTA ══ -->
+<section id="invest" aria-labelledby="invest-title">
+  <div class="form-section-inner">
+    <div class="form-badge">Investor Qualification &amp; KYC/AML</div>
+    <h2 class="form-lead" id="invest-title">Begin Your Investor Process</h2>
+    <p class="form-sub">Complete our confidential investor questionnaire. This includes initial KYC/AML compliance documentation required for all development and investment engagements. Takes approximately 5 minutes.</p>
+
+    <div class="form-steps">
+      <div class="form-step">
+        <div class="form-step-num">01</div>
+        <div class="form-step-lbl">Complete Questionnaire</div>
+      </div>
+      <div class="form-step">
+        <div class="form-step-num">02</div>
+        <div class="form-step-lbl">KYC / AML Review</div>
+      </div>
+      <div class="form-step">
+        <div class="form-step-num">03</div>
+        <div class="form-step-lbl">Consultation Scheduled</div>
+      </div>
+    </div>
+
+    <a href="https://forms.gle/oJG12UKYz3LfAy8x5" target="_blank" rel="noopener" class="btn-invest" aria-label="Complete investor questionnaire on Google Forms">
+      Complete Investor Questionnaire →
+    </a>
+
+    <p class="form-note">
+      Your information is confidential and used solely for KYC/AML compliance and investment qualification purposes. By completing this form, you consent to being contacted by StrongHer Consulting, LLC regarding this investment opportunity.<br><br>
+      Alternatively, contact Wendy Cowan directly:<br>
+      <a href="mailto:wendycowansells@gmail.com">wendycowansells@gmail.com</a> &nbsp;·&nbsp; <a href="tel:+14072766254">+1-407-276-6254</a>
+    </p>
+  </div>
+</section>
+
+<!-- ══ CONTACT BAND ══ -->
+<div class="contact-band" role="contentinfo" aria-label="Contact information">
+  <div>
+    <div class="contact-item-label">Email</div>
+    <div class="contact-item-val"><a href="mailto:wendycowansells@gmail.com">wendycowansells@gmail.com</a></div>
+  </div>
+  <div>
+    <div class="contact-item-label">Phone</div>
+    <div class="contact-item-val"><a href="tel:+14072766254">+1-407-276-6254</a></div>
+  </div>
+  <div>
+    <div class="contact-item-label">Website &amp; LinkedIn</div>
+    <div class="contact-item-val" style="font-size:0.8rem">
+      <a href="https://www.strongherconsulting.com" target="_blank" rel="noopener">strongherconsulting.com</a><br>
+      <a href="https://www.linkedin.com/in/globallywendy" target="_blank" rel="noopener" style="font-size:0.75rem;color:rgba(10,186,181,0.75)">linkedin.com/in/globallywendy</a>
+    </div>
+  </div>
+</div>
+
+<!-- ══ REFERENCES ══ -->
+<section class="section" id="references" aria-label="References and disclaimers" style="padding:3rem 0">
+  <div class="wrap">
+    <span class="eyebrow">References &amp; Disclosures</span>
+    <div class="disclaimer">
+      <strong>Sources:</strong> National Housing Trust of Jamaica (nht.gov.jm) — About, Developers Programme, Guaranteed Purchase Programme, Housing Schemes; Office of the Prime Minister of Jamaica (opm.gov.jm) — NHT and HAJ to Transform Jamaica's Housing Landscape (2025); Jamaica Information Service (jis.gov.jm) — Government Addressing Housing Deficit; Jamaica Observer — NHT to Commence 10,675 New Housing Solutions 2026/2027 (February 2026), NHT Continues to Woo Developers (September 2025); National Housing Trust New Incentives July 2026; Habitat for Humanity International — Housing and the SDGs, SDG 11 Policy Brief; UN-Habitat — Sustainable Development Goals Progress Report 2025; UN Statistics Division SDG 11 Report 2025; Bank of Jamaica — Indicative exchange rate 1 USD = 155 JMD, March 2026.
+    </div>
+    <div class="disclaimer">
+      <strong>Investment Disclaimer:</strong> This document is prepared for informational and advisory purposes only. Nothing herein constitutes financial, legal, or investment advice. All projections, financial data, and unit counts are indicative estimates and subject to change. Currency conversions applied at Bank of Jamaica indicative rate 1 USD = 155 JMD, March 2026. All developers and investors should conduct independent due diligence and consult qualified legal and financial advisors before making any investment decision. StrongHer Consulting, LLC is a Florida Limited Liability Company. This is not an offer to sell securities.
+    </div>
+  </div>
+</section>
+
+<!-- ══ FOOTER ══ -->
+<footer>
+  <div class="footer-brand">StrongHer Consulting, LLC</div>
+  <div class="footer-tag">Empowering Innovation &nbsp;|&nbsp; Advancing Sustainability &nbsp;|&nbsp; Unlocking Capital</div>
+  <div class="footer-links">
+    <a href="https://www.strongherconsulting.com" target="_blank" rel="noopener">Website</a>
+    <a href="https://www.linkedin.com/company/strongher-consulting/" target="_blank" rel="noopener">LinkedIn: Company</a>
+    <a href="https://www.linkedin.com/in/globallywendy" target="_blank" rel="noopener">LinkedIn: Wendy</a>
+    <a href="https://forms.gle/oJG12UKYz3LfAy8x5" target="_blank" rel="noopener">Investor Questionnaire</a>
+  </div>
+  <div class="footer-legal">
+    Orlando, Florida, USA &nbsp;·&nbsp; wendycowansells@gmail.com &nbsp;·&nbsp; +1-407-276-6254<br>
+    © 2026 StrongHer Consulting, LLC. All rights reserved. Florida Limited Liability Company.<br>
+    This document is for informational purposes only and does not constitute an offer to sell securities.
+  </div>
+</footer>
+
+<script>
+// ── Hamburger Menu ──
+const hamburger = document.getElementById('hamburger');
+const mobileMenu = document.getElementById('mobile-menu');
+const mobLinks = document.querySelectorAll('.mob-link');
+
+hamburger.addEventListener('click', () => {
+  const isOpen = mobileMenu.classList.toggle('open');
+  hamburger.setAttribute('aria-expanded', isOpen);
+});
+
+mobLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    mobileMenu.classList.remove('open');
+    hamburger.setAttribute('aria-expanded', false);
+  });
+});
+
+// Close on outside click
+document.addEventListener('click', (e) => {
+  if (!hamburger.contains(e.target) && !mobileMenu.contains(e.target)) {
+    mobileMenu.classList.remove('open');
+    hamburger.setAttribute('aria-expanded', false);
+  }
+});
+
+// ── Active Nav on Scroll ──
+const sections = document.querySelectorAll('section[id], div[id="invest"]');
+const navAnchors = document.querySelectorAll('#main-nav a[href^="#"]');
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      navAnchors.forEach(a => a.classList.remove('nav-active'));
+      const activeLink = document.querySelector(`#main-nav a[href="#${entry.target.id}"]`);
+      if (activeLink) activeLink.classList.add('nav-active');
+    }
+  });
+}, { rootMargin: '-40% 0px -55% 0px' });
+
+sections.forEach(s => observer.observe(s));
+
+// ── Smooth scroll offset for fixed nav ──
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function(e) {
+    const target = document.querySelector(this.getAttribute('href'));
+    if (target) {
+      e.preventDefault();
+      const navH = document.getElementById('main-nav').offsetHeight;
+      const top = target.getBoundingClientRect().top + window.scrollY - navH - 16;
+      window.scrollTo({ top, behavior: 'smooth' });
+    }
+  });
+});
+</script>
+
+<style>
+/* Active nav link */
+#main-nav a.nav-active { color: var(--tiffany) !important; }
+/* Nav CTA should not get nav-active color override */
+#main-nav a.nav-cta.nav-active { color: #fff !important; }
+</style>
+
+</body>
+</html>
